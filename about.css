@@ -1,0 +1,447 @@
+/* about.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #0f0f1a;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #1a1a2e;
+    padding: 15px 0;
+    border-bottom: 2px solid #00c91e;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover, nav a.active {
+    background-color: #00c91e;
+    border-radius: 4px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1200x400?text=Leone+Stars') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* Team History Section */
+.team-history {
+    padding: 60px 0;
+    background-color: #161632;
+}
+
+.team-history h2 {
+    text-align: center;
+    color: #00c91e;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.team-history p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    color: #ccc;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.history-text h3 {
+    color: #00c91e;
+    margin: 20px 0 10px;
+}
+
+.history-text p {
+    margin-bottom: 20px;
+    color: #ccc;
+    line-height: 1.7;
+}
+
+.history-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Team Structure Section */
+.team-structure {
+    padding: 60px 0;
+    background-color: #1a1a2e;
+}
+
+.team-structure h2 {
+    text-align: center;
+    color: #00c91e;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.structure-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.structure-item {
+    background-color: #222;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.structure-item:hover {
+    transform: translateY(-10px);
+}
+
+.structure-item h3 {
+    color: #00c91e;
+    margin-bottom: 15px;
+}
+
+.structure-item p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+/* Achievements Section */
+.achievements {
+    padding: 60px 0;
+    background-color: #161632;
+}
+
+.achievements h2 {
+    text-align: center;
+    color: #00c91e;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.achievement-card {
+    background-color: #222;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.achievement-card:hover {
+    transform: translateY(-10px);
+}
+
+.achievement-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.achievement-card h3 {
+    color: #00c91e;
+    margin-bottom: 10px;
+}
+
+.achievement-card p {
+    color: #ccc;
+}
+
+/* Current Squad Section */
+.current-squad {
+    padding: 60px 0;
+    background-color: #1a1a2e;
+}
+
+.current-squad h2 {
+    text-align: center;
+    color: #00c91e;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.squad-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.squad-text p {
+    margin-bottom: 20px;
+    color: #ccc;
+    line-height: 1.7;
+}
+
+.squad-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Future Goals Section */
+.future-goals {
+    padding: 60px 0;
+    background-color: #161632;
+}
+
+.future-goals h2 {
+    text-align: center;
+    color: #00c91e;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.goals-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.goal-item {
+    background-color: #222;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.goal-item h3 {
+    color: #00c91e;
+    margin-bottom: 15px;
+}
+
+.goal-item p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+/* Footer Content */
+.footer-content {
+    padding: 60px 0;
+    background-color: #161632;
+    margin-top: 60px;
+}
+
+.footer-columns {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    min-width: 300px;
+}
+
+.column h3 {
+    color: #00c91e;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #00c91e;
+}
+
+.tweet {
+    background-color: #222;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.tweet p {
+    margin-bottom: 10px;
+}
+
+.tweet span {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.blog-post {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #222;
+    border-radius: 4px;
+}
+
+.blog-post img {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.blog-content h4 {
+    margin-bottom: 5px;
+    color: #00c91e;
+}
+
+.standings-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #222;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.standings-table th, .standings-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.standings-table th {
+    background-color: #00c91e;
+    color: white;
+    font-weight: bold;
+}
+
+.standings-table tr:nth-child(even) {
+    background-color: #2a2a4a;
+}
+
+/* Footer */
+footer {
+    background-color: #0f0f1a;
+    padding: 40px 0 20px;
+    border-top: 2px solid #00c91e;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.sponsor-logos img {
+    height: 40px;
+}
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+
+.copyright p {
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.social-links a img:hover {
+    opacity: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .history-content,
+    .squad-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-columns {
+        flex-direction: column;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+}
