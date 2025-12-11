@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matches - FASL Sports</title>
+    <link rel="stylesheet" href="matches.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container" id="header-container">
+        <div class="logo">
+          <img
+            src="./images/Salone.jpeg"
+            alt="FASL Logo"
+          />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li>
+              <a href="./players/players1.html">PLAYERS</a>
+            </li>
+            <li><a href="matches.html" class="active">MATCHES</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="page-header">
+      <div class="container">
+        <h1>MATCHES</h1>
+        <p>Latest fixtures, results, and match highlights</p>
+      </div>
+    </section>
+
+    <!-- Team Form Section -->
+    <section class="team-form">
+      <div class="container">
+        <div class="form-header">
+          <h2>TEAM FORM</h2>
+          <span>Leone Stars</span>
+        </div>
+        <div class="form-results">
+          <div class="form-item win">W</div>
+          <div class="form-item win">W</div>
+          <div class="form-item draw">D</div>
+          <div class="form-item win">W</div>
+          <div class="form-item loss">L</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Match Filters -->
+    <section class="matches-filters">
+      <div class="container">
+        <div class="filter-options">
+          <button class="filter-btn active">ALL</button>
+          <button class="filter-btn">LIVE</button>
+          <button class="filter-btn">UPCOMING</button>
+          <button class="filter-btn">COMPLETED</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Matches Content -->
+    <section class="matches-content">
+      <div class="container">
+        <div class="matches-list">
+          <!-- Completed Match -->
+          <div class="match-card completed">
+            <div class="match-date">DEC 8, 2025</div>
+            <div class="match-teams">
+              <div class="team">
+                <img
+                  src="./images/Salone.jpeg"
+                  alt="sl"
+                />
+                <span>Sierra Leone</span>
+              </div>
+              <div class="match-score">
+                <span class="score">3</span>
+                <span class="vs">-</span>
+                <span class="score">1</span>
+              </div>
+              <div class="team">
+                <img
+                  src="./images/Guinea Bissau _.jpeg"
+                  alt="G-B"
+                />
+                <span>Guinea-Bissau</span>
+              </div>
+            </div>
+            <div class="match-details">
+              <div class="match-venue">National Stadium</div>
+              <div class="match-status">Completed</div>
+            </div>
+          </div>
+
+          <!-- Live Match -->
+          <div class="match-card live">
+            <div class="match-date">DEC 9, 2025</div>
+            <div class="match-teams">
+              <div class="team">
+                <img
+                  src="./images/Djibouti flag.jpeg"
+                  alt="Djibouti"
+                />
+                <span>Real Madrid</span>
+              </div>
+              <div class="match-score live-score">
+                <span class="score">2</span>
+                <span class="vs">-</span>
+                <span class="score">2</span>
+                <div class="live-indicator">LIVE</div>
+              </div>
+              <div class="team">
+                <img
+                  src="./images/Salone.jpeg"
+                  alt="Barcelona"
+                />
+                <span>Sierra Leone</span>
+              </div>
+            </div>
+            <div class="match-details">
+              <div class="match-venue">Santiago Bernabeu</div>
+              <div class="match-status live-status">LIVE</div>
+            </div>
+          </div>
+
+          <!-- Upcoming Match -->
+          <div class="match-card upcoming">
+            <div class="match-date">DEC 12, 2025</div>
+            <div class="match-teams">
+              <div class="team">
+                <img
+                  src="./images/egypt.jpeg"
+                  alt="Egypt"
+                />
+                <span>Egypt</span>
+              </div>
+              <div class="match-score">
+                <span class="vs">VS</span>
+              </div>
+              <div class="team">
+                <img
+                  src="./images/Salone.jpeg"
+                  alt="Sierra Leone"
+                />
+                <span>Liverpool</span>
+              </div>
+            </div>
+            <div class="match-details">
+              <div class="match-venue">Etihad Stadium</div>
+              <div class="match-status">Upcoming</div>
+            </div>
+          </div>
+
+          <!-- Completed Match -->
+          <div class="match-card completed">
+            <div class="match-date">DEC 7, 2025</div>
+            <div class="match-teams">
+              <div class="team">
+                <img
+                  src="./images/Salone.jpeg"
+                  alt="sl"
+                />
+                <span>Juventus</span>
+              </div>
+              <div class="match-score">
+                <span class="score">1</span>
+                <span class="vs">-</span>
+                <span class="score">0</span>
+              </div>
+              <div class="team">
+                <img
+                  src="./images/Ethiopia.jpeg"
+                  alt="eth"
+                />
+                <span>Ethiopia</span>
+              </div>
+            </div>
+            <div class="match-details">
+              <div class="match-venue">Allianz Stadium</div>
+              <div class="match-status">Completed</div>
+            </div>
+          </div>
+
+          <!-- Upcoming Match -->
+          <div class="match-card upcoming">
+            <div class="match-date">DEC 15, 2025</div>
+            <div class="match-teams">
+              <div class="team">
+                <img
+                  src="./images/Salone.jpeg"
+                  alt="sl"
+                />
+                <span>Sierra Leone</span>
+              </div>
+              <div class="match-score">
+                <span class="vs">VS</span>
+              </div>
+              <div class="team">
+                <img
+                  src="./images/Ethiopia.jpeg"
+                  alt="eth"
+                />
+                <span>Ethiopia</span>
+              </div>
+            </div>
+            <div class="match-details">
+              <div class="match-venue">Wanda Metropolitano</div>
+              <div class="match-status">Upcoming</div>
+            </div>
+          </div>
+
+          <!-- Completed Match -->
+          <div class="match-card completed">
+            <div class="match-date">DEC 6, 2025</div>
+            <div class="match-teams">
+              <div class="team">
+                <img
+                  src="https://via.placeholder.com/60x60?text=MAN"
+                  alt="Manchester United"
+                />
+                <span>Manchester United</span>
+              </div>
+              <div class="match-score">
+                <span class="score">0</span>
+                <span class="vs">-</span>
+                <span class="score">2</span>
+              </div>
+              <div class="team">
+                <img
+                  src="https://via.placeholder.com/60x60?text=CHE"
+                  alt="Chelsea"
+                />
+                <span>Chelsea</span>
+              </div>
+            </div>
+            <div class="match-details">
+              <div class="match-venue">Old Trafford</div>
+              <div class="match-status">Completed</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section">
+      <div class="container">
+        <h2>LEAGUE STATISTICS</h2>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <h3>TOP SCORERS</h3>
+            <div class="stat-item">
+              <span class="player">Jerrynaldo</span>
+              <span class="value">28</span>
+            </div>
+            <div class="stat-item">
+              <span class="player">Kei Kamara</span>
+              <span class="value">25</span>
+            </div>
+            <div class="stat-item">
+              <span class="player">Mohamed Buya Turay</span>
+              <span class="value">23</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <h3>TOP ASSISTS</h3>
+            <div class="stat-item">
+              <span class="player">Augustus Kargbo</span>
+              <span class="value">18</span>
+            </div>
+            <div class="stat-item">
+              <span class="player">Alhassan Koroma</span>
+              <span class="value">16</span>
+            </div>
+            <div class="stat-item">
+              <span class="player">Josh Koroma</span>
+              <span class="value">14</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <h3>CLEAN SHEETS</h3>
+            <div class="stat-item">
+              <span class="player">Alhaji Sesay</span>
+              <span class="value">15</span>
+            </div>
+            <div class="stat-item">
+              <span class="player">Mendy</span>
+              <span class="value">13</span>
+            </div>
+            <div class="stat-item">
+              <span class="player">Andre Onanna</span>
+              <span class="value">12</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="quick-links">
+      <div class="container">
+        <div class="links-grid">
+          <a href="#" class="link-card">
+            <h3>Live Scores</h3>
+            <p>Real-time updates</p>
+          </a>
+          <a href="#" class="link-card">
+            <h3>Match Highlights</h3>
+            <p>Best goals & saves</p>
+          </a>
+          <a href="#" class="link-card">
+            <h3>Team Stats</h3>
+            <p>Performance analysis</p>
+          </a>
+          <a href="#" class="link-card">
+            <h3>Standings</h3>
+            <p>League tables</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-content">
+      <div class="container">
+        <div class="footer-columns">
+          <div class="column">
+            <h3>LATEST TWEETS</h3>
+            <div class="tweet">
+              <p>
+                The greatest footballers of all time have one thing in common:
+                they never stop improving.
+              </p>
+              <span>— @FootballLegends • 2 hours ago</span>
+            </div>
+            <div class="tweet">
+              <p>
+                Breaking: New stadium construction approved for next season.
+                Capacity will increase to 65,000.
+              </p>
+              <span>— @TeamNews • 5 hours ago</span>
+            </div>
+          </div>
+          <div class="column">
+            <h3>BLOG</h3>
+            <div class="blog-post">
+              <img
+                src="./images/MK.jpg"
+                alt="Blog Post"
+              />
+              <div class="blog-content">
+                <h4>Mohamed Kallon signs new deal</h4>
+                <p>
+                  The Rangers are reviewing their recent performance after a
+                  series of disappointing results...
+                </p>
+              </div>
+            </div>
+            <div class="blog-post">
+              <img
+                src="./images/Kei Kamara.jpeg"
+                alt="Blog Post"
+              />
+              <div class="blog-content">
+                <h4>Kei Kamara hints retirement date</h4>
+                <p>
+                  After the controversial comments made by coach Rogers, the
+                  team is facing internal challenges...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <h3>Group A</h3>
+            <table class="standings-table">
+              <thead>
+                <tr>
+                  <th>Pos</th>
+                  <th>Team</th>
+                  <th>P</th>
+                  <th>W</th>
+                  <th>D</th>
+                  <th>L</th>
+                  <th>GD</th>
+                  <th>PTS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Egypt</td>
+                  <td>10</td>
+                  <td>8</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>+18</td>
+                  <td>26</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Burkina Faso</td>
+                  <td>10</td>
+                  <td>6</td>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>+16</td>
+                  <td>21</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Sierra Leone</td>
+                  <td>10</td>
+                  <td>4</td>
+                  <td>3</td>
+                  <td>3</td>
+                  <td>+2</td>
+                  <td>15</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Guinea-Bissau</td>
+                  <td>10</td>
+                  <td>2</td>
+                  <td>4</td>
+                  <td>4</td>
+                  <td>-2</td>
+                  <td>10</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <div class="sponsor-logos">
+            <img src="./images/umbro.png" alt="umbro" />
+            <img
+              src="./images/CAF.png"
+              alt="caf"
+            />
+            <img src="./images/FIFA.jpg" alt="fifa" />
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="copyright">
+            <p>&copy; 2025 FASL. All rights reserved.</p>
+          </div>
+          <div class="social-links">
+            <a href="#"
+              ><img
+                src="./images/FaceBook.jpeg"
+                alt="Facebook"
+            /></a>
+            <a href="#"
+              ><img
+                src="./images/x.jpg"
+                alt="Twitter"
+            /></a>
+            <a href="#"
+              ><img
+                src="./images/insta.jpg"
+                alt="Instagram"
+            /></a>
+            <a href="#"
+              ><img
+                src="./images/yt.jpg"
+                alt="YouTube"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
