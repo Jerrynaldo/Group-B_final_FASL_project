@@ -97,11 +97,15 @@ nav a:hover, nav a.active {
     line-height: 1.8;
 }
 
+.team-history .container>p {
+    margin-bottom: 90px;
+}
+
 .history-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 40px;
-    align-items: start;
+    gap: 20px;
+    align-items: center;
 }
 
 .history-text h3 {
@@ -113,10 +117,11 @@ nav a:hover, nav a.active {
     margin-bottom: 20px;
     color: #ccc;
     line-height: 1.7;
+    text-align: left;
 }
 
 .history-image img {
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
@@ -124,7 +129,7 @@ nav a:hover, nav a.active {
 /* Team Structure Section */
 .team-structure {
     padding: 60px 0;
-    background-color: #1a1a2e;
+    background-color: #030122;
 }
 
 .team-structure h2 {
@@ -141,11 +146,13 @@ nav a:hover, nav a.active {
 }
 
 .structure-item {
-    background-color: #222;
+    background: transparent;
     padding: 30px;
     border-radius: 10px;
     text-align: center;
     transition: transform 0.3s ease;
+    border: 3px solid #006c10;
+    box-shadow: 2px 2px 12px #00c91e;
 }
 
 .structure-item:hover {
@@ -182,11 +189,13 @@ nav a:hover, nav a.active {
 }
 
 .achievement-card {
-    background-color: #222;
+    background: linear-gradient(24deg, #161632, #161632, #006c10);
     padding: 30px;
     border-radius: 10px;
     text-align: center;
     transition: transform 0.3s ease;
+    border: 3px solid #006c10;
+    box-shadow: 2px 2px 12px #00c91e;
 }
 
 .achievement-card:hover {
@@ -210,7 +219,7 @@ nav a:hover, nav a.active {
 /* Current Squad Section */
 .current-squad {
     padding: 60px 0;
-    background-color: #1a1a2e;
+    background-color: #030122;
 }
 
 .current-squad h2 {
@@ -221,10 +230,10 @@ nav a:hover, nav a.active {
 }
 
 .squad-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
-    align-items: start;
 }
 
 .squad-text p {
@@ -233,10 +242,13 @@ nav a:hover, nav a.active {
     line-height: 1.7;
 }
 
+.squad-text {
+    max-width: 600px;
+}
+
 .squad-image img {
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 /* Future Goals Section */
@@ -259,10 +271,13 @@ nav a:hover, nav a.active {
 }
 
 .goal-item {
-    background-color: #222;
+    background: transparent;
     padding: 30px;
     border-radius: 10px;
     text-align: center;
+    transition: transform 0.3s ease;
+    border: 3px solid #006c10;
+    box-shadow: 2px 2px 12px #00c91e;
 }
 
 .goal-item h3 {
@@ -301,7 +316,7 @@ nav a:hover, nav a.active {
 }
 
 .tweet {
-    background-color: #222;
+    background-color: #12121f;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 4px;
@@ -321,7 +336,7 @@ nav a:hover, nav a.active {
     gap: 15px;
     margin-bottom: 20px;
     padding: 15px;
-    background-color: #222;
+    background-color: #12121f;
     border-radius: 4px;
 }
 
@@ -340,7 +355,7 @@ nav a:hover, nav a.active {
 .standings-table {
     width: 100%;
     border-collapse: collapse;
-    background-color: #222;
+    background-color: #12121f;
     border-radius: 4px;
     overflow: hidden;
 }

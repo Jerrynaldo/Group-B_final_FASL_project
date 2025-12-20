@@ -242,7 +242,7 @@ nav a:hover, nav a.active {
 }
 
 .tweet {
-    background-color: #222;
+    background-color: #12121f;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 4px;
@@ -262,7 +262,7 @@ nav a:hover, nav a.active {
     gap: 15px;
     margin-bottom: 20px;
     padding: 15px;
-    background-color: #222;
+    background-color: #12121f;
     border-radius: 4px;
 }
 
@@ -281,7 +281,7 @@ nav a:hover, nav a.active {
 .standings-table {
     width: 100%;
     border-collapse: collapse;
-    background-color: #222;
+    background-color: #12121f;
     border-radius: 4px;
     overflow: hidden;
 }
